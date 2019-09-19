@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/cities">
+
+        <menu>
+            <item
+                android:id="@+id/item_spb"
+                android:title="@string/spb" />
+
+            <item
+                android:id="@+id/item_msk"
+                android:title="@string/msk" />
+
+            <item
+                android:id="@+id/item_vyborg"
+                android:title="@string/vyborg" />
+
+            <item
+                android:id="@+id/item_sochi"
+                android:title="@string/sochi" />
+        </menu>
+
+    </item>
+
+</menu>
